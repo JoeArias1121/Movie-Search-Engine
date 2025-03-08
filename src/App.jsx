@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import Search from './components/Search.jsx'
 
+const API_BASE_URL = "https://api.themoviedb.org/3/search/movie";
+
 const App = () => {
 
   const [searchTerm, setSearchTerm] = useState('')
